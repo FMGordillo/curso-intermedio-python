@@ -13,7 +13,10 @@ def main():
     }
 
     print("SUPER LIST", super_list)
-    print("SUPER DICT", super_dict)
+
+    print("SUPER DICT")
+    for key, value in super_dict.items():
+        print("key:", key, "| value:", value)
 
 
 if __name__ == '__main__':
